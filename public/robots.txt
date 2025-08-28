@@ -1,3 +1,10 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://inobux.com/sitemap.xml
+
+# Specific bot permissions
 User-agent: Googlebot
 Allow: /
 
@@ -10,5 +17,6 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
-User-agent: *
-Allow: /
+# Disallow admin or private areas (add as needed)
+# Disallow: /admin/
+# Disallow: /private/

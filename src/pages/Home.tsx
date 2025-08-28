@@ -1,5 +1,3 @@
-// Update this page (the content is just a fallback if you fail to update the page)
-
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
@@ -14,7 +12,7 @@ import {
   Star
 } from 'lucide-react';
 
-const Index = () => {
+const Home = () => {
   const services = [
     {
       icon: Globe,
@@ -392,4 +390,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Home;
